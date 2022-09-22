@@ -88,7 +88,7 @@ var mirandaDoc;
                     $(this)
                         .parent('li')
                         .append(
-                            '<span class="dd-trigger"><i class="fal fa-angle-down"></i></span>'
+                            '<span class="dd-trigger"><i class="fa fa-angle-down"></i></span>'
                         );
                 }
             });

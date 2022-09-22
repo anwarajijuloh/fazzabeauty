@@ -56,7 +56,7 @@ html {
     overflow-x: hidden;
 }
 
-.circle-out {
+/* .circle-out {
     border-radius: 50%;
     height: 40px;
     width: 40px;
@@ -64,7 +64,7 @@ html {
     border: 1px solid #a3a3a3;
     position: absolute;
     z-index: 39393993;
-}
+} */
 
 
 body {
@@ -1067,7 +1067,7 @@ select {
 
 @media(max-width: 991px) {
     body {
-        cursor: default;
+        cursor: pointer;
     }
 
     .parallax_scroll {
@@ -2670,10 +2670,10 @@ header.header-three.sigma-header .nav-container .menu-right-buttons .cart-dropdo
 /*=====Sigma Mobile Menu======*/
 .sigma-mobile-menu {
     width: 300px;
-    transform: translateX(-100%);
+    transform: translateX(100%);
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 10;
+    right: 0;
     background-color: #353530;
     height: 100vh;
     z-index: 10;
@@ -3081,10 +3081,6 @@ header.header-three.sigma-header .nav-container .menu-right-buttons .cart-dropdo
 }
 
 /*=======  BANNER CSS  =======*/
-.banner-area {
-    cursor: none;
-    overflow: hidden;
-}
 
 .banner-area .banner-content span.promo-tag {
     font-size: 14px;
