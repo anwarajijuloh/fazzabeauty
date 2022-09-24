@@ -685,8 +685,8 @@ var mirandaDoc;
                 dots: false,
                 centerMode: true,
                 centerPadding: '28%',
-                prevArrow: '<div class="slick-arrow prev-arrow"><i class="fal fa-arrow-left"></i></div>',
-                nextArrow: '<div class="slick-arrow next-arrow"><i class="fal fa-arrow-right"></i></div>',
+                prevArrow: '<div class="slick-arrow prev-arrow"><i class="fa fa-arrow-left"></i></div>',
+                nextArrow: '<div class="slick-arrow next-arrow"><i class="fa fa-arrow-right"></i></div>',
                 responsive: [{
                         breakpoint: 1600,
                         settings: {
